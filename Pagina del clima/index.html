@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Clima</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link rel="shortcut icon" href="assets/img/solecito.png" type="image/png"> <!-- Ícono de la pagina -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"/>
+</head>
+
+<body>
+    <main class="container p-1">
+        <header>
+            <h1>Clima en San Nicolás de los Garza</h1>
+            <h2>Semana 02 al 07 de septiembre de 2024</h2>
+            <h6>Responsable Actualización: Brissa Flores</h6>
+        </header>
+
+        <!-- Clima -->
+        <section class="row text-center mt-5">
+            <div class="col-2 border p-3">
+                <h5>Lunes 02</h5>
+                <i class="fa-solid fa-cloud-bolt h1"></i>
+                <p>Tormenta Eléctrica</p>
+                <p>20°/30°</p>
+                <hr>
+                <i class="fa-solid fa-wind h5"></i>
+                <p>15-30km/h</p>
+            </div>
+
+            <div class="col-2 border p-3">
+                <h5>Martes 03</h5>
+                <i class="fa-solid fa-cloud h1"></i>
+                <p>Nublado</p>
+                <p>21°/25°</p>
+                <hr>
+                <i class="fa-solid fa-wind h5"></i>
+                <p>10-20km/h</p>
+            </div>
+
+            <div class="col-2 border p-3">
+                <h5>Miércoles 04</h5>
+                <i class="fa-solid fa-rainbow h1"></i>
+                <p>Arcoíris</p>
+                <p>25°/28°</p>
+                <hr>
+                <i class="fa-solid fa-wind h5"></i>
+                <p>15-40km/h</p>
+            </div>
+
+            <div class="col-2 border p-3">
+                <h5>Jueves 05</h5>
+                <i class="fa-solid fa-sun h1"></i>
+                <p>Soleado</p>
+                <p>30°/34°</p>
+                <hr>
+                <i class="fa-solid fa-wind h5"></i>
+                <p>10-15km/h</p>
+            </div>
+
+            <div class="col-2 border p-3">
+                <h5>Viernes 06</h5>
+                <i class="fa-solid fa-snowflake h1"></i>
+                <p>Tormenta de Nieve</p>
+                <p>10°/15°</p>
+                <hr>
+                <i class="fa-solid fa-wind h5"></i>
+                <p>30-50km/h</p>
+            </div>
+
+            <div class="col-2 border p-3">
+                <h5>Sábado 07</h5>
+                <i class="fa-solid fa-cloud-moon-rain h1"></i>
+                <p>Lluvia de Noche</p>
+                <p>18°/22°</p>
+                <hr>
+                <i class="fa-solid fa-wind h5"></i>
+                <p>18-28km/h</p>
+            </div>
+        </section>
+
+        <!-- Pronóstico -->
+        <section class="row mt-5">
+            <div class="col-6">
+                <h5>Pronóstico del Clima</h5>
+                <p>Pronóstico del Tiempo (8 - 14 de Septiembre)</p>
+                
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Max</th>
+                            <th>Min</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>8 de Septiembre</td>
+                            <td>30</td>
+                            <td>28</td>
+                            <td>Parcialmente Nublado</td>
+                        </tr>
+
+                        <tr>
+                            <td>9 de Septiembre</td>
+                            <td>25</td>
+                            <td>20</td>
+                            <td>Interválos Nubosos</td>
+                        </tr>
+
+                        <tr>
+                            <td>10 de Septiembre</td>
+                            <td>28</td>
+                            <td>22</td>
+                            <td>Tornado</td>
+                        </tr>
+
+                        <tr>
+                            <td>11 de Septiembre</td>
+                            <td>35</td>
+                            <td>30</td>
+                            <td>Soleado</td>
+                        </tr>
+
+                        <tr>
+                            <td>12 de Septiembre</td>
+                            <td>25</td>
+                            <td>15</td>
+                            <td>Lluvia de Hamburguesas</td>
+                        </tr>
+
+                        <tr>
+                            <td>13 de Septiembre</td>
+                            <td>28</td>
+                            <td>23</td>
+                            <td>Huracán Albert</td>
+                        </tr>
+
+                        <tr>
+                            <td>14 de Septiembre</td>
+                            <td>20</td>
+                            <td>15</td>
+                            <td>Neblina</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Salida y Puesta del sol</h5>
+                        <p>Hoy, Lunes 02 de Septiembre</p>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card text-center">
+                                    <div class="card-header">
+                                        <br>
+                                        <p>Salida</p>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-sun h2"></i>
+                                        <h4>7:00 am</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="card text-center">
+                                    <div class="card-header">
+                                        <br>
+                                        <p>Puesta</p>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-cloud-bolt h2"></i>
+                                        <h4>7:00 pm</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-3">
+                    <div class="card-header">
+                        <h5>Información UV</h5>
+                    </div>
+
+                    <div class="card-body">
+                        <p>La radiación ultravioleta (UV) es una forma de radiación no ionizante* que es 
+                            emitida por el sol y fuentes artificiales, como las camas bronceadoras. Aunque 
+                            ofrece algunos beneficios a las personas, como la producción de vitamina D, 
+                            también puede causar riesgos para la salud.</p>
+                    </div>
+
+                    <div class="card-footer pb-1">
+                        <h6>Información solo de carácter informativo</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="alert alert-info pb-1">
+                <p>Plantilla elaborada únicamente con Bootstrap V.5 FDW Grupo 51</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
